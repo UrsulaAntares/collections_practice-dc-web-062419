@@ -11,5 +11,10 @@ def sort_array_char_count(strings)
 end
 
 def swap_elements(items)
-  items[0], items[1], items[2] = items[0], items[2], items[1]
+ # items[0], items[1], items[2] = items[0], items[2], items[1]
+ items.collect.swap!(1,2)
 end
+
+# def swap_elements_from_to(array, index, destination_index)
+#   array[index] = array[destination_index]  
+# end
