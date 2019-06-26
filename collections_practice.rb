@@ -38,7 +38,7 @@ def find_a(array)
 end
 
 def sum_array(numbers)
-  sum = 0
-  numbers.each {|x| sum = sum + x.to_i }
-  sum
+  # sum = 0
+  sum = numbers.each {|x| + x.to_i }
+  # sum
 end
