@@ -22,5 +22,5 @@ end
 
 
 def reverse_array(integers)
-  integers.reverse_each
+  integers.to_a.reverse_each
 end
