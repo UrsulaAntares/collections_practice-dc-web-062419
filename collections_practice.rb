@@ -20,7 +20,10 @@ def swap_elements_from_to(array, index, destination_index)
 end
 
 
-
 def reverse_array(integers)
   integers.reverse
+end
+
+def kesha_maker(array)
+  array[2] = "$"
 end
