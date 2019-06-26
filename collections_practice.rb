@@ -32,3 +32,7 @@ def kesha_maker(array)
   #kesha_set = []
   kesha_set = array.each {|name| name[2]="$"}
 end
+
+def find_a(array)
+  array.collect.start_with?("a")
+end
