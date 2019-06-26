@@ -46,7 +46,7 @@ end
 def add_s(word_set)
   # plurals = []
    i = 0
-  plurals = unless word_set[i] == word_set[1]
+  plurals = unless word_set[i] != word_set[1]
     word_set.map {|word| (word+"s")}
     i +=1
     # return plurals
