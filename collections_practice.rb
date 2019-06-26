@@ -46,7 +46,7 @@ end
 def add_s(word_set)
    plurals = []
   unless word_set[1]
-    plurals = word_set.each {|word| plurals << word+"s"}
+    plurals = word_set.each {|word| plurals << (word+"s")}
     # return plurals
   end
   plurals
