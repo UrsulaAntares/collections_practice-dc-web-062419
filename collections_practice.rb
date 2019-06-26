@@ -27,5 +27,6 @@ def reverse_array(integers)
 end
 
 def kesha_maker(array)
-  array.collect {|name| name[2]="$"}
+  kesha_set = []
+  kesha_set << array.each {|name| name[2]="$"}
 end
