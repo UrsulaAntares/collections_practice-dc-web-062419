@@ -3,5 +3,5 @@ def sort_array_asc(numbers)
 end
 
 def sort_array_desc(numbers)
-  numbers.collect.sort
+  numbers.collect.sort { |a,b| b <=> a }
 end
