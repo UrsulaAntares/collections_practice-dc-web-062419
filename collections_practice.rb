@@ -44,9 +44,11 @@ def sum_array(numbers)
 end
 
 def add_s(word_set)
-   plurals = []
-  unless word_set[1] == word_set[1]
+  # plurals = []
+   i = 0
+  unless word_set[i] == word_set[1]
     word_set.map {|word| (word+"s")}
+    i +=1
     # return plurals
   end
   # plurals
