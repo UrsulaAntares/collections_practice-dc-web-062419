@@ -25,5 +25,6 @@ def reverse_array(integers)
 end
 
 def kesha_maker(array)
-  array[2].collect = "$"
+  array.collect 
+  binding.pry
 end
