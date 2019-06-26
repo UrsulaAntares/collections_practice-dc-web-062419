@@ -12,5 +12,5 @@ end
 
 def swap_elements(items)
 #  items.swap!(1,2)
-  items[1]
+  items[1], items[2] = 
 end
