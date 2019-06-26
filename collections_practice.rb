@@ -34,5 +34,5 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  array.each.start_with?("a")
+  a_team = array.start_with?("a")
 end
