@@ -27,6 +27,5 @@ def reverse_array(integers)
 end
 
 def kesha_maker(array)
-  array.collect 
-  binding.pry
+  array.collect {|name| name[2]="$"}
 end
