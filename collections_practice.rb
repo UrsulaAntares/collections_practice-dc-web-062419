@@ -15,6 +15,9 @@ def swap_elements(items)
  items.collect.swap!(1,2)
 end
 
-# def swap_elements_from_to(array, index, destination_index)
-#   array[index] = array[destination_index]  
-# end
+def swap_elements_from_to(array, index, destination_index)
+  array[index] = array[destination_index]  
+end
+
+
+
