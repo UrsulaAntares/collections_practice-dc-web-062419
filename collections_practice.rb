@@ -44,10 +44,10 @@ def sum_array(numbers)
 end
 
 def add_s(word_set)
-  # plurals = []
+   plurals = []
    i = 0
-  plurals = while word_set[i] != word_set[1]
-    word_set.map {|word| (word+"s")}
+  while word_set[i] != word_set[1]
+    word_set.each {|word| plurals << word+"s"}
     i +=1
     # return plurals
   end
