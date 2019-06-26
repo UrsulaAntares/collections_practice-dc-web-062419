@@ -49,4 +49,5 @@ def add_s(word_set)
     plurals = word_set.each {|word| plurals << word+"s"}
     # return plurals
   end
+  plurals
 end
