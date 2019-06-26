@@ -51,5 +51,5 @@ def add_s(word_set)
  #   i +=1
     # return plurals
  # end
-  plurals
+#  plurals
 end
