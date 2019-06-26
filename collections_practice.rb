@@ -42,3 +42,7 @@ def sum_array(numbers)
   numbers.each {|x| sum = sum + x.to_i }
   sum
 end
+
+def add_s(word_set)
+  word_set.unless 
+end
